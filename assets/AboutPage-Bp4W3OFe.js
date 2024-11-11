@@ -1,0 +1,1 @@
+import{d as e,c as a,a as t,o,M as s,_ as c}from"./index-NZDWa1gG.js";const n={class:"about"},_=e({__name:"AboutPage",setup(r){return(p,u)=>(o(),a("main",n,[t(s,{title:"Back",path:"/"})]))}}),i=c(_,[["__scopeId","data-v-ef6909bc"]]);export{i as default};
