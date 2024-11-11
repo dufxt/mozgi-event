@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'GrtskGiga';
+  src: url('@/assets/fonts/GrtskGiga-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GrtskGiga';
+  src: url('@/assets/fonts/GrtskGiga-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GrtskGiga';
+  src: url('@/assets/fonts/GrtskGiga-Semibold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+}

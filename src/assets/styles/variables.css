@@ -1,0 +1,107 @@
+:root {
+  --bg-color: #bebebe;
+  --page-overlay-bg-color: #21252b;
+  --text-color: #373737;
+  --menu-link-hover-color: #fff;
+  --circle-color: #ffcb46;
+
+  --main-font-family: 'GrtskGiga';
+  --main-padding: 24px;
+
+  --main-title-font-size: 82px;
+  --main-title-width: 90%;
+
+  --main-header-align-items: flex-start;
+
+  --main-menu-display: block;
+  --mobile-menu-visibility: hidden;
+
+  --menu-link-font-size: 16px;
+  --menu-vertical-link-margin: 19px;
+  --menu-gorizontal-link-margin: 19px;
+
+  --lenguage-selector-size: 38px;
+  --lenguage-selector-margin-top: 5px;
+  --lenguage-selector-option-font-size: 14px;
+
+  --marquee-font-size: 52px;
+  --marquee-margin: 16px;
+
+  --main-logo-width: 85px;
+  --main-logo-margin-top: 0;
+
+  --circle-size: 578px;
+  --circle-blur: 38px;
+
+  --circle-title-size: 118px;
+  --circle-title-right: 23px;
+  --circle-title-bottom: 23px;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --main-padding: 16px;
+
+    --main-title-font-size: 58px;
+    --main-title-width: 80%;
+
+    --menu-link-font-size: 14px;
+    --menu-vertical-link-margin: 10px;
+    --menu-gorizontal-link-margin: 12px;
+
+    --lenguage-selector-size: 34px;
+    --lenguage-selector-margin-top: 2px;
+    --lenguage-selector-option-font-size: 12px;
+
+    --marquee-font-size: 42px;
+
+    --main-logo-width: 69px;
+
+    --circle-size: 482px;
+
+    --circle-title-size: 112px;
+    --circle-title-right: 22px;
+    --circle-title-bottom: 17px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --circle-title-right: 38px;
+    --circle-title-bottom: -2px;
+  }
+}
+
+@media (max-width: 700px) {
+  :root {
+    --main-title-font-size: 42px;
+    --main-title-width: 85%;
+  }
+}
+
+@media (max-width: 500px) {
+  :root {
+    --main-title-width: 95%;
+    --main-title-font-size: 34px;
+
+    --main-header-align-items: center;
+
+    --main-menu-display: none;
+    --mobile-menu-visibility: visible;
+
+    --lenguage-selector-margin-top: 0;
+
+    --marquee-font-size: 28px;
+    --marquee-margin: 8px;
+
+    --main-logo-width: 46px;
+    --main-logo-margin-top: 4px;
+
+    --circle-size: 294px;
+    --circle-blur: 23px;
+
+    --circle-title-size: 90px;
+    --circle-title-right: 32px;
+    --circle-title-bottom: -21px;
+  }
+}
